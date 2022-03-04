@@ -1,0 +1,10 @@
+type wnlk{
+    name: String!
+    age: Int!
+    gender: String!
+    email: String!
+}
+
+type Query{
+    person: wnlk!
+}
